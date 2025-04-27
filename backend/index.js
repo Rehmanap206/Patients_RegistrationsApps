@@ -14,11 +14,11 @@ myapp.use("/api/patients/",r);
 let sending_data = async function () {
     try {
         collection.create({
-            Full_Name: "Mudassir",
-            Age: 21,
+            Full_Name: "Rehman",
+            Age: 20,
             Gender: "Male",
-            Phone_Number: "035689899",
-            Address: "ioobnfdn"
+            Phone_Number: "04589545",
+            Address: "fggffgsd"
         })
     } catch (e) {
         console.log(e)
